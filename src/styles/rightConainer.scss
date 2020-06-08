@@ -1,0 +1,19 @@
+@import '_variable.scss';
+
+.content{
+  color: $white;
+  h2{
+  font-family: "Roboto Bold";
+  font-size: $headerFont;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+  line-height: 38px;
+  text-align: center;
+  }
+  p{
+    width: 340px;
+    font-family: "Roboto Regular";
+    font-size: $bigFont;
+    letter-spacing: 0.26px;
+  }
+}

@@ -1,0 +1,27 @@
+@import '_variable.scss';
+
+.formContainer {
+  width: 480px;
+  height: 518px;
+    h2 {
+        font-size: $headerFont;
+        color: $heading;
+        font-family:'Roboto Bold';
+        margin-bottom: 40px;
+    }
+    p.sign-text{
+      margin: 0 0 40px 0;
+      color: $heading;
+      font-size: 15px;
+      span{
+        color: $blue;
+        font-weight: bold;
+        cursor:pointer;
+      }
+    }
+    .text-field-holder{
+      margin-bottom: 20px;
+      position: relative;
+      color: $grey;
+    }
+}

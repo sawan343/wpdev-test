@@ -1,0 +1,25 @@
+@import '_variable.scss';
+
+.text-field-holder {
+    button {
+        width: 480px;
+        height: 50px;
+        border: none;
+        border-radius: 4px;
+        font-family: "Roboto Bold";
+        font-size: $buttonTextFont;
+    }
+    .inactive {    
+        background: $greyWhite;
+        color: $lightGrey;    
+    }
+
+    .active {
+        background: $blue;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+
+

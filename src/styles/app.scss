@@ -1,0 +1,46 @@
+@import "_variable.scss";
+
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("font/Roboto-Bold.eot"); /* IE9 Compat Modes */
+  src: url("font/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("font/Roboto-Bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("font/Roboto-Bold.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("font/Roboto-Bold.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("font/Roboto-Bold.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("font/Roboto-Regular.eot"); /* IE9 Compat Modes */
+  src: url("font/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("font/Roboto-Regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("font/Roboto-Regular.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("font/Roboto-Regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("font/Roboto-Regular.svg#svgFontName")
+      format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Roboto Regular";
+}
+
+.row {
+  display: flex;
+  height: 100vh;
+}
+.columnLeft {
+  flex: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columnRight {
+  flex: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $blue;
+}
